@@ -30,8 +30,8 @@ defmodule Opbeat.Mixfile do
   defp deps do
     [
       {:espec, "~> 1.3.2", only: :test},
-      {:httpoison, "~> 0.11.1"},
-      {:poison, "~> 3.1.0"},
+      {:httpoison, "~> 0.9.0"},
+      {:poison, "~> 2.0"},
       {:ex_doc, ">= 0.0.0", only: :dev}
     ]
   end
